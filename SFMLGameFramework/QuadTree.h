@@ -62,12 +62,6 @@ struct AABB
 		if (point.x < center.x + width && point.x > center.x - width)
 			if (point.y < center.y + height && point.y > center.y - height)
 				return true;
-		return false;
-
-		/*if (pos.x + sides.x < b.getPos().x || pos.x > b.getPos().x + b.getWidth())
-			return false;
-		if (pos.y + sides.y < b.getPos().y || pos.y > b.getPos().y + b.getHeight())
-			return false;*/
 		return true;
 	}
 
