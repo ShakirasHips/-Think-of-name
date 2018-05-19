@@ -80,7 +80,7 @@ private:
 	QuadTree* TopRight;
 	QuadTree* BottomLeft;
 	QuadTree* BottomRight;
-	static constexpr int MAXDEPTH = 4;
+	static constexpr int MAXDEPTH = 2;
 	static constexpr int MAXOBJECTSPERNODE = 10;
 
 

@@ -22,8 +22,8 @@
 int main()
 {
 
-	//CircleColTest test(200, 10);
-	QuadTreeColTest test(300, 10, 2, 5);
+	//CircleColTest test(400, 5);
+	QuadTreeColTest test(400, 5, 2, 5);
 	test.init();
 
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Window Memes");

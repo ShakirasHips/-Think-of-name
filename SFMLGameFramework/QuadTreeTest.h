@@ -93,7 +93,7 @@ void QuadTreeColTest::update(double time)
 
 void QuadTreeColTest::draw(sf::RenderWindow* window)
 {
-	//units->draw(window);
+	units->draw(window);
 	for (auto& u : objects)
 	{
 		u.draw(window);
